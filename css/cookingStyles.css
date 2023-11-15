@@ -1,0 +1,308 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element.  This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+* {
+    margin:0;padding:0
+}
+/* Background Colours */
+header, footer {
+    background-color: #F1C27B;
+}
+nav {
+    background-color: #A2CDB0;
+
+}
+main {
+    background-color: #FFD89C;
+
+}
+body {
+    background-color: #85A389;
+}
+
+/* Text Properties */
+
+
+
+/* Margins */
+header h1 {
+    margin: 50px 0px 0px 30px;
+}
+header img {
+    margin: 0px;
+    padding: 0px;
+}
+main img {
+    margin:0px 20px 20px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+/* Padding */
+main p{
+    padding: 10px;
+}
+footer {
+    padding: 10px 0px 0px 10px;
+}
+
+/* Positioning (Float, Display and Clear) */
+h1, .imageBanner, .imageStudent {
+    float: left;
+}
+.imageStudent{
+    height: 160px;
+}
+header, nav, main, footer {
+    clear: both;
+}
+.imageBanner {
+    float: right;
+}
+main {
+    margin: 10px 0px 10px 0px;
+}
+
+/* Element Sizes */
+body{
+    width: 900px;
+    margin: auto;
+}
+header img{
+    height: 90px;
+    width: 550px;
+}
+header {
+    height: 90px;
+}
+footer {
+    height: 90px;
+}
+.ingredientsPhotos img{
+    width: 160px;
+    height: 122px;
+    float: left;
+    margin-right:25px;
+}
+.ingredientsPhotos {
+    width: 120px;
+}
+.greenRecipe, .redRecipe{
+    clear: both
+}
+.greenRecipe img, .redRecipe img{
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-top: 55px;
+}
+.redRecipe, .greenRecipe{
+    margin: 20px 0px 0px 20px;
+}
+.thaiCurries {
+    height: 960px;
+}
+.ingredientsText li{
+    margin-top: 18px;
+}
+/* Navigation List Properties */
+nav ul{
+    list-style: none;
+}
+nav {
+    height: 38px;
+}
+nav li {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+nav a:hover {
+    color: #85A389;
+    background-color: black;
+}
+
+
+/*Survey*/
+.survey h1{
+    font-size: 25px;
+    width:100%
+}
+.survey p{
+    margin-left: -10px;
+}
+.survey {
+    background-color: #FFD89C;
+    height: 600px;
+}
+.survey p{
+    display: inline;
+}
+.personal {
+    margin-left:10px;
+    padding-top: 10px;
+}
+.favourite {
+    margin: 0px 0px 10px 10px;
+    padding-top: 10px;
+}
+.rate {
+    margin: 10px 0px 10px 10px;
+}
+.favCountry, .newCountry {
+    width: 40%;
+    margin: 0px 20px 15px 0px;
+}
+
+.choiceOfCountry{
+    display: inline-flex;
+    width: 100%;
+}
+.rate input{
+    margin: 10px 10px 5px -10px;
+}
+.permission, #submitButton {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#submitButton {
+    width: 100px;
+    height: 25px;
+}
+
+/*Italy*/
+.flag {
+    width:75px;
+    height:75px;
+    float:right;
+    margin-left:20px;  
+}
+.italianImages {
+    width: 140px;
+    height: 140px;
+    margin-right: 40px;
+    margin-top: 50px; 
+}
+ /*Stir Fry*/
+ .imageStirFry {
+    width: 290px;
+    height: 150px;
+    margin: 10px 0px 0px 5.5px;
+    padding: 0px;
+ }
+ .stirFry {
+    height: 860px;
+ }
+ /*Indian Spicies*/
+ .spiceImages img{
+    height: 150px;
+    width: 180px;
+ }
+ #cumin, #cinnamon, #cloves, #fenugreek, #cardamom, #mustard, #nutmeg {
+    display: none;
+ }
+ .indianSpice {
+    height: 560px;
+ }
+ /*Pizza Basics*/
+.pizzaBasics img {
+    width: 100px;
+    height: 70px;
+}
+#pizza1, #pizza2, #pizza3, #pizza4, #pizza5, #pizza6 ,#pizza7, #pizza8 {
+    display: none;
+}
+/*Pasta Basics*/
+.pastaImages img {
+    width: 190px;
+    height: 120px;
+    margin-right: 30px;
+}
+.instructionsPasta, .instructionsSauce{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.instructionsPasta ol, .instructionsSauce ul{
+    padding-left: 20px;
+}
+/*Wok*/
+.wok img{
+    width: 300px;
+    height: 200px;
+    float:right;
+    margin: -20px 20px 20px 0px;
+}
+.wok{
+    padding: 10px;
+}
+.wok div {
+    margin-bottom: 20px;
+}
+/*Chineese*/
+.chineseSpacing {
+    padding: 10px;
+}
+#wokChoice {
+    height: 100px;
+}
+.chineseSpacingForm{
+    padding-left: 10px;
+}
+/*Indian*/
+.indianImg img{
+    width: 150px;
+    height: 200px;
+    margin-bottom: -10px;
+}
+.indianImg {
+    width: 170px;
+    float: left;
+}
+.indian, .indian h2 {
+    padding: 10px;
+}
+.indian {
+    height: 470px;
+}
+/*Thai*/
+#thaiLarge{
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+.thai h2{
+    margin: 10px 10px 0px 10px;
+}
+.smallThai {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+.thaiText {
+    height: 310px;
+}
+/*Three Curries*/
+.curryButton {
+    width: 120px;
+    height: 50px;
+    margin-left: -10px;
+}
+.indianCurry {
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 0px 20px 10px 10px;
+}
+section li{
+    margin-left: 20px;
+}
+#vegetableCurry, #lambCurry {
+    display: none;
+}
+

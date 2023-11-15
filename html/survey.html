@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Survey</title>
+<link rel="stylesheet" href="../CSS/cookingStyles.css">
+<script src="/javascript/script.js"></script>
+</head>
+
+<body>
+
+<!-- Page Header -->
+<header>
+<h1>Cooking for Students</h1>
+<img src="../images/cookingBanner.jpg" alt="" class="imageBanner">
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="/HTML/home.html">Home</a></li>
+        <li><a href="/HTML/italian.html">Italian</a></li>
+        <li><a href="/HTML/indian.html">Indian</a></li>
+        <li><a href="/HTML/chineese.html">Chineese</a></li>
+        <li><a href="/HTML/thai.html">Thai</a></li>
+        <li><a href="/HTML/survey.html">Survey</a></li>
+    </ul>
+</nav>
+
+<!-- The main content of the page -->
+<main class="survey">
+    <div class="personal">
+        <h1>Personal Details</h1>
+        <form>
+            First Name: <br>
+            <input type="text" name="firstname" maxlength="20" id="name"><br>
+            Last name: <br>
+            <input type="text" name="lastname" maxlength="20" id="name"><br>
+            Age: <br>
+            <input type="radio" name="age" value="25" id="age"> <25
+            <input type="radio" name="age" value="25-40" id="age"> 25-40 
+            <input type="radio" name="age" value="40>" id="age"> 40>
+            <input type="radio" name="age" value="no" id="age"> Would rather not say
+        </form>
+    </div>
+    <div class="favourite">
+        <h1>Favorite Food </h1>
+        <div class="choiceOfCountry">
+            <div class="favCountry">
+                <p>Your favourite food from the website belongs to which country?</p> <br>
+                <select name="favCountry" id="favCountry" required>
+                    <option value="italy">Italian</option>
+                    <option value="india">Indian</option>
+                    <option value="thailand">Thai</option>
+                    <option value="china">Chineese</option>
+                </select>
+            </div>
+            <div class="newCountry">
+                <p>Which country's cuisine would you like to see on the website?</p> <br>
+                <select name="newCountry" id="newCountry" required>
+                    <option value="vietnam">Vietnamese</option>
+                    <option value="america">American</option>
+                    <option value="french">France</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="turkey">Turkish</option>
+                </select>
+            </div>
+    </div>
+        <p>Please enter a description of a new cooking technique you would like to see on the website</p>
+        <textarea name="techReq" id="techReq" cols="70" rows="5" maxlength="500"></textarea>
+    </div>
+    <div class="rate">
+        <h2>Rate Our Website!</h2>
+        <p>Please rate our website from 1(poor) to 5(excellent)</p>
+        <form>
+            <p>Ease of website use:</p>
+            <input type="number" name="ease" max="5" min="1"> <br>
+            <p>Quality of infromation:</p>
+            <input type="number" name="quality" max="5" min="1"> <br>
+            <p>Taste of recipes:</p>
+            <input type="number" name="taste" max="5" min="1">
+        </form>
+    </div>
+    <div class="permission">
+        <p>Do you give consent for us to use your personal information to use it in the development of the website?</p>
+        <form>
+            <input type="radio" name="consent" class="consent">
+            <p>Yes</p>
+            <input type="radio" name="consent" class="consent">
+            <p>No</p>
+        </form>
+    </div>
+    <div class="submit">
+        <form>
+            <input type="submit" name="submit" id="submitButton" value="Submit">
+        </form>
+    </div>
+</main>
+
+<!-- Page Footer -->
+<footer>
+    <p>Links to famous tv chefs</p>
+    <p><a href="https://www.gordonramsay.com/">Gordon Ramsey</a></p>
+    <p><a href="https://www.jamieoliver.com/">Jamie Oliver</a></p>
+    <p><a href="https://www.jamesmartinchef.co.uk/">James Martin</a></p>
+</footer>
+
+</body>
+</html>
+
+
