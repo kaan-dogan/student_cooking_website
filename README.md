@@ -35,7 +35,7 @@ To view the website locally, follow these steps:
 
 The project is organized into various sections, each dedicated to a specific cuisine. The main files include:
 
-- **index.html:** The main entry point for the website.
+- **home.html:** The main entry point for the website.
 - **CSS/:** Contains stylesheets for styling the website.
 - **images/:** Stores images used in different sections.
 - **JS/:** Includes JavaScript files for pages with dynamic content.
